@@ -1,9 +1,9 @@
 'use client'
 
 import Link from 'next/link'
+import { LayoutPanelLeft } from 'lucide-react'
 
 import { Button } from '@/components/ui/button'
-import { LayoutPanelLeft } from 'lucide-react'
 
 export const Navbar = () => {
   return (

@@ -1,5 +1,8 @@
 'use client'
 
+import Link from 'next/link'
+import { MenuIcon } from 'lucide-react'
+
 import {
   Drawer,
   DrawerContent,
@@ -9,10 +12,8 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from '@/components/ui/drawer'
-import { MenuIcon } from 'lucide-react'
-import { Logo } from './logo'
-import Link from 'next/link'
 import { Button } from '@/components/ui/button'
+import { Logo } from './logo'
 
 export const MobileNavbar = () => {
   return (
